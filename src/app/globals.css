@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --forest: #1c2b1e;
+  --forest-mid: #243228;
+  --ochre: #c8852a;
+  --ochre-light: #d99b45;
+  --cream: #f0e8d8;
+  --cream-dark: #e0d4be;
+  --rust: #8b3a2a;
+  --charcoal: #2e2e2a;
+  --mist: #7a8c7d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--charcoal);
+}
+
+body {
+  background: var(--charcoal);
+  color: var(--cream);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
